@@ -1,0 +1,110 @@
+
+Gurobi 7.5.2 (win64, Python) logging started 03/03/18 15:09:35
+
+Academic license - for non-commercial use only
+Changed value of parameter MIPFocus to 1
+   Prev: 0  Min: 0  Max: 3  Default: 0
+Changed value of parameter MIPGap to 0.001
+   Prev: 0.0001  Min: 0.0  Max: 1e+100  Default: 0.0001
+Warning: linear constraint 0 and linear constraint 1 have the same name "supply"
+Optimize a model with 82959 rows, 78064 columns and 234192 nonzeros
+Variable types: 0 continuous, 78064 integer (78064 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+03]
+  Objective range  [5e-02, 8e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [3e+02, 3e+05]
+Found heuristic solution: objective 644737.67041
+Presolve removed 78064 rows and 0 columns
+Presolve time: 0.31s
+Presolved: 4895 rows, 78064 columns, 156128 nonzeros
+Variable types: 0 continuous, 78064 integer (78064 binary)
+
+Root relaxation: objective 1.160461e+05, 5992 iterations, 0.10 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 116046.088    0   28 644737.670 116046.088  82.0%     -    0s
+H    0     0                    116253.83745 116046.088  0.18%     -    1s
+H    0     0                    116118.78115 116046.088  0.06%     -    2s
+
+Explored 1 nodes (5992 simplex iterations) in 2.64 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 3: 116119 116254 644738 
+
+Optimal solution found (tolerance 1.00e-03)
+Best objective 1.161187811540e+05, best bound 1.160460875070e+05, gap 0.0626%
+
+Gurobi 7.5.2 (win64, Python) logging started 03/03/18 17:36:39
+
+Academic license - for non-commercial use only
+Changed value of parameter MIPFocus to 1
+   Prev: 0  Min: 0  Max: 3  Default: 0
+Changed value of parameter MIPGap to 0.001
+   Prev: 0.0001  Min: 0.0  Max: 1e+100  Default: 0.0001
+Warning: linear constraint 0 and linear constraint 1 have the same name "supply"
+Optimize a model with 82959 rows, 78064 columns and 234192 nonzeros
+Variable types: 0 continuous, 78064 integer (78064 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+03]
+  Objective range  [5e-02, 8e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [3e+02, 3e+05]
+Found heuristic solution: objective 644737.67041
+Presolve removed 78064 rows and 0 columns
+Presolve time: 0.49s
+Presolved: 4895 rows, 78064 columns, 156128 nonzeros
+Variable types: 0 continuous, 78064 integer (78064 binary)
+
+Root relaxation: objective 1.160461e+05, 5992 iterations, 0.14 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 116046.088    0   28 644737.670 116046.088  82.0%     -    0s
+H    0     0                    116253.83745 116046.088  0.18%     -    2s
+H    0     0                    116118.78115 116046.088  0.06%     -    3s
+
+Explored 1 nodes (5992 simplex iterations) in 3.75 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 3: 116119 116254 644738 
+
+Optimal solution found (tolerance 1.00e-03)
+Best objective 1.161187811540e+05, best bound 1.160460875070e+05, gap 0.0626%
+Changed value of parameter MIPFocus to 1
+   Prev: 0  Min: 0  Max: 3  Default: 0
+Changed value of parameter MIPGap to 0.001
+   Prev: 0.0001  Min: 0.0  Max: 1e+100  Default: 0.0001
+Warning: linear constraint 0 and linear constraint 1 have the same name "supply"
+Optimize a model with 82959 rows, 78064 columns and 234192 nonzeros
+Variable types: 0 continuous, 78064 integer (78064 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 2e+03]
+  Objective range  [5e-02, 8e+02]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [3e+02, 3e+05]
+Found heuristic solution: objective 644737.67041
+Presolve removed 78064 rows and 0 columns
+Presolve time: 0.48s
+Presolved: 4895 rows, 78064 columns, 156128 nonzeros
+Variable types: 0 continuous, 78064 integer (78064 binary)
+
+Root relaxation: objective 1.160461e+05, 5992 iterations, 0.14 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 116046.088    0   28 644737.670 116046.088  82.0%     -    0s
+H    0     0                    116253.83745 116046.088  0.18%     -    2s
+H    0     0                    116118.78115 116046.088  0.06%     -    3s
+
+Explored 1 nodes (5992 simplex iterations) in 3.59 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 3: 116119 116254 644738 
+
+Optimal solution found (tolerance 1.00e-03)
+Best objective 1.161187811540e+05, best bound 1.160460875070e+05, gap 0.0626%

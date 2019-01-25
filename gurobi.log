@@ -1,0 +1,942 @@
+
+Gurobi 7.5.2 (win64, Python) logging started 03/03/18 16:05:21
+
+Academic license - for non-commercial use only
+
+Gurobi 7.5.2 (win64, Python) logging started 03/03/18 16:16:35
+
+Academic license - for non-commercial use only
+Changed value of parameter MIPFocus to 1
+   Prev: 0  Min: 0  Max: 3  Default: 0
+Changed value of parameter MIPGap to 0.001
+   Prev: 0.0001  Min: 0.0  Max: 1e+100  Default: 0.0001
+Warning: linear constraint 0 and linear constraint 1 have the same name "supply"
+Optimize a model with 662 rows, 646 columns and 1862 nonzeros
+Variable types: 0 continuous, 646 integer (646 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [3e+04, 3e+06]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 5.215715e+07
+Presolve removed 609 rows and 17 columns
+Presolve time: 0.00s
+Presolved: 53 rows, 629 columns, 1221 nonzeros
+Variable types: 0 continuous, 629 integer (629 binary)
+
+Root relaxation: objective 2.270969e+07, 203 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 2.2710e+07    0   11 5.2157e+07 2.2710e+07  56.5%     -    0s
+H    0     0                    2.897549e+07 2.2710e+07  21.6%     -    0s
+H    0     0                    2.895380e+07 2.2710e+07  21.6%     -    0s
+H    0     0                    2.605712e+07 2.2710e+07  12.8%     -    0s
+H    0     0                    2.603353e+07 2.2710e+07  12.8%     -    0s
+     0     0 2.2720e+07    0   20 2.6034e+07 2.2720e+07  12.7%     -    0s
+H    0     0                    2.601803e+07 2.2720e+07  12.7%     -    0s
+H    0     0                    2.599936e+07 2.2720e+07  12.6%     -    0s
+     0     0 2.2722e+07    0   19 2.5999e+07 2.2722e+07  12.6%     -    0s
+     0     0 2.2731e+07    0   27 2.5999e+07 2.2731e+07  12.6%     -    0s
+H    0     0                    2.599813e+07 2.2731e+07  12.6%     -    0s
+     0     0 2.2752e+07    0   31 2.5998e+07 2.2752e+07  12.5%     -    0s
+     0     0 2.2757e+07    0   31 2.5998e+07 2.2757e+07  12.5%     -    0s
+     0     0 2.2774e+07    0   35 2.5998e+07 2.2774e+07  12.4%     -    0s
+     0     0 2.2777e+07    0   34 2.5998e+07 2.2777e+07  12.4%     -    0s
+     0     0 2.2789e+07    0   33 2.5998e+07 2.2789e+07  12.3%     -    0s
+     0     0 2.2792e+07    0   38 2.5998e+07 2.2792e+07  12.3%     -    0s
+     0     0 2.2795e+07    0   39 2.5998e+07 2.2795e+07  12.3%     -    0s
+     0     0 2.2848e+07    0   31 2.5998e+07 2.2848e+07  12.1%     -    0s
+H    0     0                    2.599780e+07 2.2848e+07  12.1%     -    0s
+     0     0 2.2872e+07    0   29 2.5998e+07 2.2872e+07  12.0%     -    0s
+     0     0 2.2893e+07    0   29 2.5998e+07 2.2893e+07  11.9%     -    0s
+     0     0 2.2894e+07    0   32 2.5998e+07 2.2894e+07  11.9%     -    0s
+     0     0 2.2894e+07    0   35 2.5998e+07 2.2894e+07  11.9%     -    0s
+     0     0 2.2894e+07    0   35 2.5998e+07 2.2894e+07  11.9%     -    0s
+     0     0 2.2909e+07    0   32 2.5998e+07 2.2909e+07  11.9%     -    0s
+H    0     0                    2.597541e+07 2.2909e+07  11.8%     -    0s
+     0     2 2.2909e+07    0   32 2.5975e+07 2.2909e+07  11.8%     -    0s
+H    2     4                    2.593031e+07 2.2910e+07  11.6%   2.5    0s
+H   97    85                    2.592754e+07 2.2912e+07  11.6%   8.6    0s
+H  192   154                    2.592744e+07 2.2912e+07  11.6%   8.5    0s
+H  742   546                    2.588854e+07 2.2967e+07  11.3%   7.0    0s
+H  830   587                    2.346288e+07 2.3233e+07  0.98%   6.5    0s
+H  830   557                    2.342526e+07 2.3233e+07  0.82%   6.5    0s
+H  830   529                    2.342073e+07 2.3233e+07  0.80%   6.5    0s
+H  875   533                    2.341474e+07 2.3342e+07  0.31%   7.6    0s
+
+Cutting planes:
+  Gomory: 2
+  Cover: 9
+  MIR: 20
+  StrongCG: 7
+  Flow cover: 7
+
+Explored 877 nodes (7563 simplex iterations) in 0.66 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 10: 2.34147e+07 2.34207e+07 2.34253e+07 ... 2.59978e+07
+
+Optimal solution found (tolerance 1.00e-03)
+Best objective 2.341473580677e+07, best bound 2.339624612171e+07, gap 0.0790%
+Parameter MIPFocus unchanged
+   Value: 1  Min: 0  Max: 3  Default: 0
+Parameter MIPGap unchanged
+   Value: 0.001  Min: 0.0  Max: 1e+100  Default: 0.0001
+Warning: linear constraint 0 and linear constraint 1 have the same name "supply"
+Optimize a model with 662 rows, 646 columns and 1862 nonzeros
+Variable types: 0 continuous, 646 integer (646 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [3e+04, 3e+06]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Presolved: 53 rows, 629 columns, 1221 nonzeros
+
+Continuing optimization...
+
+
+Cutting planes:
+  Gomory: 2
+  Cover: 9
+  MIR: 20
+  StrongCG: 7
+  Flow cover: 7
+
+Explored 877 nodes (7563 simplex iterations) in 0.02 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 10: 2.34147e+07 2.34207e+07 2.34253e+07 ... 2.59978e+07
+
+Optimal solution found (tolerance 1.00e-03)
+Best objective 2.341473580677e+07, best bound 2.339624612171e+07, gap 0.0790%
+
+Gurobi 7.5.2 (win64, Python) logging started 03/03/18 18:48:51
+
+Academic license - for non-commercial use only
+Changed value of parameter MIPFocus to 1
+   Prev: 0  Min: 0  Max: 3  Default: 0
+Changed value of parameter MIPGap to 0.001
+   Prev: 0.0001  Min: 0.0  Max: 1e+100  Default: 0.0001
+Warning: linear constraint 0 and linear constraint 1 have the same name "supply"
+Optimize a model with 662 rows, 646 columns and 1862 nonzeros
+Variable types: 0 continuous, 646 integer (646 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [3e+06, 1e+12]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Warning: Model contains large objective coefficients
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Found heuristic solution: objective 6.819122e+12
+Presolve removed 609 rows and 17 columns
+Presolve time: 0.01s
+Presolved: 53 rows, 629 columns, 1221 nonzeros
+Variable types: 0 continuous, 629 integer (629 binary)
+
+Root relaxation: objective 6.874260e+11, 32 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 6.8743e+11    0   12 6.8191e+12 6.8743e+11  89.9%     -    0s
+H    0     0                    1.644969e+12 6.8743e+11  58.2%     -    0s
+H    0     0                    1.016141e+12 6.8743e+11  32.3%     -    0s
+H    0     0                    6.928023e+11 6.8743e+11  0.78%     -    0s
+     0     0     cutoff    0      6.9280e+11 6.9280e+11  0.00%     -    0s
+
+Cutting planes:
+  Cover: 2
+
+Explored 1 nodes (41 simplex iterations) in 0.06 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 4: 6.92802e+11 1.01614e+12 1.64497e+12 6.81912e+12 
+
+Optimal solution found (tolerance 1.00e-03)
+Best objective 6.928022585776e+11, best bound 6.928022585776e+11, gap 0.0000%
+Changed value of parameter MIPFocus to 1
+   Prev: 0  Min: 0  Max: 3  Default: 0
+Changed value of parameter MIPGap to 0.01
+   Prev: 0.0001  Min: 0.0  Max: 1e+100  Default: 0.0001
+Warning: linear constraint 0 and linear constraint 1 have the same name "supply"
+Optimize a model with 662 rows, 646 columns and 1862 nonzeros
+Variable types: 0 continuous, 646 integer (646 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [3e+06, 1e+12]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Warning: Model contains large objective coefficients
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Found heuristic solution: objective 6.819122e+12
+Presolve removed 609 rows and 17 columns
+Presolve time: 0.01s
+Presolved: 53 rows, 629 columns, 1221 nonzeros
+Variable types: 0 continuous, 629 integer (629 binary)
+
+Root relaxation: objective 6.874260e+11, 32 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 6.8743e+11    0   12 6.8191e+12 6.8743e+11  89.9%     -    0s
+H    0     0                    1.644969e+12 6.8743e+11  58.2%     -    0s
+H    0     0                    1.016141e+12 6.8743e+11  32.3%     -    0s
+H    0     0                    6.928023e+11 6.8743e+11  0.78%     -    0s
+
+Explored 1 nodes (32 simplex iterations) in 0.07 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 4: 6.92802e+11 1.01614e+12 1.64497e+12 6.81912e+12 
+
+Optimal solution found (tolerance 1.00e-02)
+Best objective 6.928022585776e+11, best bound 6.874260218451e+11, gap 0.7760%
+Changed value of parameter MIPFocus to 1
+   Prev: 0  Min: 0  Max: 3  Default: 0
+Changed value of parameter MIPGap to 0.01
+   Prev: 0.0001  Min: 0.0  Max: 1e+100  Default: 0.0001
+Warning: linear constraint 0 and linear constraint 1 have the same name "supply"
+Optimize a model with 662 rows, 646 columns and 1862 nonzeros
+Variable types: 0 continuous, 646 integer (646 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [3e+06, 1e+12]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Warning: Model contains large objective coefficients
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Found heuristic solution: objective 6.819122e+12
+Presolve removed 609 rows and 17 columns
+Presolve time: 0.01s
+Presolved: 53 rows, 629 columns, 1221 nonzeros
+Variable types: 0 continuous, 629 integer (629 binary)
+
+Root relaxation: objective 6.874260e+11, 32 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 6.8743e+11    0   12 6.8191e+12 6.8743e+11  89.9%     -    0s
+H    0     0                    1.644969e+12 6.8743e+11  58.2%     -    0s
+H    0     0                    1.016141e+12 6.8743e+11  32.3%     -    0s
+H    0     0                    6.928023e+11 6.8743e+11  0.78%     -    0s
+
+Explored 1 nodes (32 simplex iterations) in 0.04 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 4: 6.92802e+11 1.01614e+12 1.64497e+12 6.81912e+12 
+
+Optimal solution found (tolerance 1.00e-02)
+Best objective 6.928022585776e+11, best bound 6.874260218451e+11, gap 0.7760%
+Changed value of parameter MIPFocus to 1
+   Prev: 0  Min: 0  Max: 3  Default: 0
+Changed value of parameter MIPGap to 0.01
+   Prev: 0.0001  Min: 0.0  Max: 1e+100  Default: 0.0001
+Warning: linear constraint 0 and linear constraint 1 have the same name "supply"
+Optimize a model with 662 rows, 646 columns and 1862 nonzeros
+Variable types: 0 continuous, 646 integer (646 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [3e+06, 1e+12]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Warning: Model contains large objective coefficients
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Found heuristic solution: objective 6.819122e+12
+Presolve removed 609 rows and 17 columns
+Presolve time: 0.01s
+Presolved: 53 rows, 629 columns, 1221 nonzeros
+Variable types: 0 continuous, 629 integer (629 binary)
+
+Root relaxation: objective 6.874260e+11, 32 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 6.8743e+11    0   12 6.8191e+12 6.8743e+11  89.9%     -    0s
+H    0     0                    1.644969e+12 6.8743e+11  58.2%     -    0s
+H    0     0                    1.016141e+12 6.8743e+11  32.3%     -    0s
+H    0     0                    6.928023e+11 6.8743e+11  0.78%     -    0s
+
+Explored 1 nodes (32 simplex iterations) in 0.05 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 4: 6.92802e+11 1.01614e+12 1.64497e+12 6.81912e+12 
+
+Optimal solution found (tolerance 1.00e-02)
+Best objective 6.928022585776e+11, best bound 6.874260218451e+11, gap 0.7760%
+Changed value of parameter MIPFocus to 1
+   Prev: 0  Min: 0  Max: 3  Default: 0
+Changed value of parameter MIPGap to 0.01
+   Prev: 0.0001  Min: 0.0  Max: 1e+100  Default: 0.0001
+Warning: linear constraint 0 and linear constraint 1 have the same name "supply"
+Optimize a model with 662 rows, 646 columns and 1862 nonzeros
+Variable types: 0 continuous, 646 integer (646 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [3e+06, 1e+12]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Warning: Model contains large objective coefficients
+         Consider reformulating model or setting NumericFocus parameter
+         to avoid numerical issues.
+Found heuristic solution: objective 6.819122e+12
+Presolve removed 609 rows and 17 columns
+Presolve time: 0.00s
+Presolved: 53 rows, 629 columns, 1221 nonzeros
+Variable types: 0 continuous, 629 integer (629 binary)
+
+Root relaxation: objective 6.874260e+11, 32 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 6.8743e+11    0   12 6.8191e+12 6.8743e+11  89.9%     -    0s
+H    0     0                    1.644969e+12 6.8743e+11  58.2%     -    0s
+H    0     0                    1.016141e+12 6.8743e+11  32.3%     -    0s
+H    0     0                    6.928023e+11 6.8743e+11  0.78%     -    0s
+
+Explored 1 nodes (32 simplex iterations) in 0.06 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 4: 6.92802e+11 1.01614e+12 1.64497e+12 6.81912e+12 
+
+Optimal solution found (tolerance 1.00e-02)
+Best objective 6.928022585776e+11, best bound 6.874260218451e+11, gap 0.7760%
+Changed value of parameter MIPFocus to 1
+   Prev: 0  Min: 0  Max: 3  Default: 0
+Changed value of parameter MIPGap to 0.01
+   Prev: 0.0001  Min: 0.0  Max: 1e+100  Default: 0.0001
+Warning: linear constraint 0 and linear constraint 1 have the same name "supply"
+Optimize a model with 662 rows, 646 columns and 1862 nonzeros
+Variable types: 0 continuous, 646 integer (646 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [7e+04, 3e+06]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 4.993149e+07
+Presolve removed 609 rows and 17 columns
+Presolve time: 0.01s
+Presolved: 53 rows, 629 columns, 1221 nonzeros
+Variable types: 0 continuous, 629 integer (629 binary)
+
+Root relaxation: objective 1.948843e+07, 278 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 1.9488e+07    0   11 4.9931e+07 1.9488e+07  61.0%     -    0s
+H    0     0                    2.285740e+07 1.9488e+07  14.7%     -    0s
+H    0     0                    2.285491e+07 1.9488e+07  14.7%     -    0s
+H    0     0                    2.285335e+07 1.9488e+07  14.7%     -    0s
+     0     0 1.9537e+07    0   18 2.2853e+07 1.9537e+07  14.5%     -    0s
+H    0     0                    2.285240e+07 1.9537e+07  14.5%     -    0s
+     0     0 1.9545e+07    0   18 2.2852e+07 1.9545e+07  14.5%     -    0s
+     0     0 1.9626e+07    0   27 2.2852e+07 1.9626e+07  14.1%     -    0s
+H    0     0                    2.285231e+07 1.9626e+07  14.1%     -    0s
+H    0     0                    2.284581e+07 1.9626e+07  14.1%     -    0s
+     0     0 1.9677e+07    0   26 2.2846e+07 1.9677e+07  13.9%     -    0s
+     0     0 1.9683e+07    0   30 2.2846e+07 1.9683e+07  13.8%     -    0s
+     0     0 1.9683e+07    0   30 2.2846e+07 1.9683e+07  13.8%     -    0s
+     0     0 1.9694e+07    0   21 2.2846e+07 1.9694e+07  13.8%     -    0s
+     0     0 1.9694e+07    0   25 2.2846e+07 1.9694e+07  13.8%     -    0s
+     0     0 1.9706e+07    0   30 2.2846e+07 1.9706e+07  13.7%     -    0s
+H    0     0                    2.284420e+07 1.9706e+07  13.7%     -    0s
+     0     2 1.9706e+07    0   30 2.2844e+07 1.9706e+07  13.7%     -    0s
+H   29    31                    2.284307e+07 1.9716e+07  13.7%   7.1    0s
+H  153   112                    2.283875e+07 1.9716e+07  13.7%   5.2    0s
+H  243   173                    2.283695e+07 1.9717e+07  13.7%   4.1    0s
+H  298   212                    2.283624e+07 1.9717e+07  13.7%   4.7    0s
+H  355   218                    2.283471e+07 1.9717e+07  13.7%   4.5    0s
+H  382   240                    2.283232e+07 1.9717e+07  13.6%   4.3    0s
+H  538   313                    2.282775e+07 1.9727e+07  13.6%   4.6    0s
+H  592   365                    2.282564e+07 1.9727e+07  13.6%   4.4    0s
+ 22076 13822 2.0727e+07   67    5 2.2826e+07 2.0057e+07  12.1%   2.6    5s
+H40643 25631                    2.282349e+07 2.0065e+07  12.1%   2.5    6s
+ 73380 46677 2.0313e+07  106    5 2.2823e+07 2.0079e+07  12.0%   2.3   10s
+ 123115 76951 2.0741e+07  119    5 2.2823e+07 2.0125e+07  11.8%   2.3   15s
+ 187878 107268 2.1739e+07  135    5 2.2823e+07 2.0169e+07  11.6%   2.3   20s
+ 268735 146861     cutoff  146      2.2823e+07 2.0185e+07  11.6%   2.2   25s
+H334619 180120                    2.282009e+07 2.0195e+07  11.5%   2.2   28s
+ 355232 191689     cutoff   52      2.2820e+07 2.0197e+07  11.5%   2.2   30s
+ 437661 238707 2.2458e+07  122    3 2.2820e+07 2.0202e+07  11.5%   2.2   35s
+ 516949 284038 2.0319e+07   96    3 2.2820e+07 2.0208e+07  11.4%   2.1   40s
+
+Gurobi 7.5.2 (win64, Python) logging started 03/03/18 19:16:00
+
+Academic license - for non-commercial use only
+Changed value of parameter MIPFocus to 1
+   Prev: 0  Min: 0  Max: 3  Default: 0
+Changed value of parameter MIPGap to 0.1
+   Prev: 0.0001  Min: 0.0  Max: 1e+100  Default: 0.0001
+Warning: linear constraint 0 and linear constraint 1 have the same name "supply"
+Optimize a model with 662 rows, 646 columns and 1862 nonzeros
+Variable types: 0 continuous, 646 integer (646 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [7e+04, 3e+06]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 4.993149e+07
+Presolve removed 609 rows and 17 columns
+Presolve time: 0.00s
+Presolved: 53 rows, 629 columns, 1221 nonzeros
+Variable types: 0 continuous, 629 integer (629 binary)
+
+Root relaxation: objective 1.948843e+07, 278 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 1.9488e+07    0   11 4.9931e+07 1.9488e+07  61.0%     -    0s
+H    0     0                    2.285740e+07 1.9488e+07  14.7%     -    0s
+H    0     0                    2.285491e+07 1.9488e+07  14.7%     -    0s
+H    0     0                    2.285335e+07 1.9488e+07  14.7%     -    0s
+     0     0 1.9537e+07    0   18 2.2853e+07 1.9537e+07  14.5%     -    0s
+H    0     0                    2.285240e+07 1.9537e+07  14.5%     -    0s
+     0     0 1.9545e+07    0   18 2.2852e+07 1.9545e+07  14.5%     -    0s
+     0     0 1.9626e+07    0   27 2.2852e+07 1.9626e+07  14.1%     -    0s
+H    0     0                    2.285231e+07 1.9626e+07  14.1%     -    0s
+H    0     0                    2.284581e+07 1.9626e+07  14.1%     -    0s
+     0     0 1.9677e+07    0   26 2.2846e+07 1.9677e+07  13.9%     -    0s
+     0     0 1.9683e+07    0   30 2.2846e+07 1.9683e+07  13.8%     -    0s
+     0     0 1.9683e+07    0   30 2.2846e+07 1.9683e+07  13.8%     -    0s
+     0     0 1.9694e+07    0   21 2.2846e+07 1.9694e+07  13.8%     -    0s
+     0     0 1.9694e+07    0   25 2.2846e+07 1.9694e+07  13.8%     -    0s
+     0     0 1.9706e+07    0   30 2.2846e+07 1.9706e+07  13.7%     -    0s
+H    0     0                    2.284420e+07 1.9706e+07  13.7%     -    0s
+     0     2 1.9706e+07    0   30 2.2844e+07 1.9706e+07  13.7%     -    0s
+H   29    31                    2.284307e+07 1.9716e+07  13.7%   7.1    0s
+H  153   112                    2.283875e+07 1.9716e+07  13.7%   5.2    0s
+H  243   173                    2.283695e+07 1.9717e+07  13.7%   4.1    0s
+H  298   212                    2.283624e+07 1.9717e+07  13.7%   4.7    0s
+H  355   218                    2.283471e+07 1.9717e+07  13.7%   4.5    0s
+H  382   240                    2.283232e+07 1.9717e+07  13.6%   4.3    0s
+H  538   313                    2.282775e+07 1.9727e+07  13.6%   4.6    0s
+H  592   365                    2.282564e+07 1.9727e+07  13.6%   4.4    1s
+ 22817 14287     cutoff  126      2.2826e+07 2.0058e+07  12.1%   2.6    5s
+H40643 25631                    2.282349e+07 2.0065e+07  12.1%   2.5    6s
+ 71631 45792 2.0106e+07   44    5 2.2823e+07 2.0078e+07  12.0%   2.3   10s
+ 123296 77099 2.0954e+07  153    9 2.2823e+07 2.0126e+07  11.8%   2.3   15s
+ 185023 105941 2.0169e+07   63   15 2.2823e+07 2.0169e+07  11.6%   2.3   20s
+ 268083 146604 2.0521e+07   62    7 2.2823e+07 2.0185e+07  11.6%   2.2   25s
+H334619 180120                    2.282009e+07 2.0195e+07  11.5%   2.2   28s
+ 358899 193820     cutoff   83      2.2820e+07 2.0197e+07  11.5%   2.2   30s
+ 444144 242320     cutoff  139      2.2820e+07 2.0203e+07  11.5%   2.2   35s
+ 525316 288808 2.0730e+07   96    5 2.2820e+07 2.0208e+07  11.4%   2.1   40s
+ 612953 336737 2.0312e+07  103    9 2.2820e+07 2.0214e+07  11.4%   2.2   45s
+ 680891 373671 2.0735e+07  101    5 2.2820e+07 2.0219e+07  11.4%   2.2   50s
+ 746750 407695 2.1200e+07  126   11 2.2820e+07 2.0224e+07  11.4%   2.2   55s
+ 816112 444060 2.1013e+07   90    7 2.2820e+07 2.0231e+07  11.3%   2.2   60s
+ 880883 477024 infeasible  134      2.2820e+07 2.0238e+07  11.3%   2.2   65s
+ 937798 508869     cutoff   76      2.2820e+07 2.0243e+07  11.3%   2.2   70s
+ 1012522 549915 2.0735e+07   91    7 2.2820e+07 2.0247e+07  11.3%   2.2   75s
+ 1085338 590645 2.0311e+07   77    9 2.2820e+07 2.0251e+07  11.3%   2.2   80s
+H1131516 615229                    2.281806e+07 2.0253e+07  11.2%   2.2   85s
+ 1208197 656913 2.0386e+07  122    3 2.2818e+07 2.0255e+07  11.2%   2.2   90s
+ 1285799 697537 2.0314e+07  102    5 2.2818e+07 2.0259e+07  11.2%   2.2   95s
+ 1349937 731443     cutoff   98      2.2818e+07 2.0261e+07  11.2%   2.2  100s
+ 1427225 772932     cutoff  111      2.2818e+07 2.0263e+07  11.2%   2.2  105s
+ 1503379 812630 2.0886e+07  146    5 2.2818e+07 2.0266e+07  11.2%   2.2  110s
+ 1570904 847818 2.0371e+07  125    5 2.2818e+07 2.0268e+07  11.2%   2.2  115s
+ 1643647 885660 2.0556e+07   78    7 2.2818e+07 2.0270e+07  11.2%   2.2  120s
+ 1719446 924920 2.0273e+07   78   13 2.2818e+07 2.0273e+07  11.2%   2.2  125s
+ 1786841 960390 2.0276e+07   48   14 2.2818e+07 2.0275e+07  11.1%   2.2  130s
+ 1851028 993237     cutoff   90      2.2818e+07 2.0277e+07  11.1%   2.2  135s
+ 1918783 1027347 2.1063e+07   74   13 2.2818e+07 2.0280e+07  11.1%   2.2  140s
+ 1993250 1064590     cutoff  109      2.2818e+07 2.0282e+07  11.1%   2.2  145s
+ 2061844 1098285 2.2548e+07   50    7 2.2818e+07 2.0284e+07  11.1%   2.2  150s
+ 2143867 1137308 2.0298e+07  106    5 2.2818e+07 2.0285e+07  11.1%   2.2  155s
+ 2232536 1179475 2.0288e+07   89    3 2.2818e+07 2.0287e+07  11.1%   2.2  160s
+ 2301259 1212343 2.0301e+07   91    5 2.2818e+07 2.0288e+07  11.1%   2.2  165s
+ 2391191 1254660 2.0325e+07  108    3 2.2818e+07 2.0289e+07  11.1%   2.1  170s
+ 2471608 1292452 2.0292e+07   88    3 2.2818e+07 2.0290e+07  11.1%   2.1  175s
+ 2515297 1313244 2.1515e+07  136   12 2.2818e+07 2.0290e+07  11.1%   2.1  180s
+ 2561794 1334644     cutoff   90      2.2818e+07 2.0290e+07  11.1%   2.1  185s
+ 2604217 1354330 2.0868e+07   82    9 2.2818e+07 2.0291e+07  11.1%   2.1  190s
+ 2635438 1367675 2.0729e+07  113    7 2.2818e+07 2.0291e+07  11.1%   2.1  195s
+ 2663302 1375303 2.1168e+07  113    7 2.2818e+07 2.0292e+07  11.1%   2.1  200s
+ 2706960 1387863     cutoff  127      2.2818e+07 2.0293e+07  11.1%   2.1  205s
+ 2748714 1399053 2.0428e+07   97   15 2.2818e+07 2.0293e+07  11.1%   2.1  210s
+ 2783702 1408731     cutoff   92      2.2818e+07 2.0294e+07  11.1%   2.1  215s
+ 2825781 1420452 2.0434e+07   80    6 2.2818e+07 2.0295e+07  11.1%   2.2  220s
+ 2868741 1433035 2.1247e+07   63   14 2.2818e+07 2.0296e+07  11.1%   2.2  225s
+ 2927243 1450198 2.0541e+07   97   13 2.2818e+07 2.0297e+07  11.1%   2.2  230s
+ 3012494 1475109 2.0887e+07  143    9 2.2818e+07 2.0298e+07  11.0%   2.2  235s
+ 3096122 1501717 2.0875e+07  123    5 2.2818e+07 2.0299e+07  11.0%   2.2  240s
+ 3168012 1524733 2.0428e+07   74   12 2.2818e+07 2.0300e+07  11.0%   2.2  245s
+ 3253987 1552330 2.0430e+07   64   10 2.2818e+07 2.0302e+07  11.0%   2.2  250s
+ 3337554 1580494 2.0437e+07   81   14 2.2818e+07 2.0303e+07  11.0%   2.2  255s
+ 3408040 1604202 2.0356e+07   81   10 2.2818e+07 2.0303e+07  11.0%   2.2  260s
+ 3494019 1633212 2.0379e+07  135    7 2.2818e+07 2.0304e+07  11.0%   2.2  265s
+ 3584475 1664278     cutoff  106      2.2818e+07 2.0305e+07  11.0%   2.2  270s
+ 3663816 1692062 2.0307e+07  119    7 2.2818e+07 2.0306e+07  11.0%   2.2  275s
+ 3751328 1722806 2.0310e+07   84    3 2.2818e+07 2.0306e+07  11.0%   2.2  280s
+ 3842284 1754087 2.0731e+07   89    8 2.2818e+07 2.0307e+07  11.0%   2.2  285s
+ 3916506 1780064 2.0309e+07   97    9 2.2818e+07 2.0307e+07  11.0%   2.2  290s
+ 3991897 1806506 2.1614e+07   99    3 2.2818e+07 2.0308e+07  11.0%   2.2  295s
+ 4077786 1836957 2.0740e+07  106    5 2.2818e+07 2.0308e+07  11.0%   2.2  300s
+ 4165588 1867917 2.0312e+07   96    5 2.2818e+07 2.0309e+07  11.0%   2.2  305s
+ 4236236 1892351     cutoff   78      2.2818e+07 2.0309e+07  11.0%   2.2  310s
+ 4320886 1921852     cutoff  129      2.2818e+07 2.0310e+07  11.0%   2.2  315s
+ 4403818 1951531 2.0382e+07  130    3 2.2818e+07 2.0310e+07  11.0%   2.2  320s
+ 4475783 1975949 2.2037e+07  127    5 2.2818e+07 2.0311e+07  11.0%   2.2  325s
+ 4555818 2004198 2.0392e+07  128    3 2.2818e+07 2.0311e+07  11.0%   2.2  330s
+ 4636908 2032163 2.0313e+07  133    7 2.2818e+07 2.0311e+07  11.0%   2.2  335s
+ 4703089 2054342 2.0315e+07  114    3 2.2818e+07 2.0312e+07  11.0%   2.2  340s
+ 4781622 2082211 2.0400e+07  126    5 2.2818e+07 2.0312e+07  11.0%   2.2  345s
+ 4869810 2114061 2.0641e+07   93    7 2.2818e+07 2.0312e+07  11.0%   2.2  350s
+
+Gurobi 7.5.2 (win64, Python) logging started 03/03/18 19:25:39
+
+Academic license - for non-commercial use only
+Changed value of parameter MIPFocus to 1
+   Prev: 0  Min: 0  Max: 3  Default: 0
+Changed value of parameter MIPGap to 0.1
+   Prev: 0.0001  Min: 0.0  Max: 1e+100  Default: 0.0001
+Warning: linear constraint 0 and linear constraint 1 have the same name "supply"
+Optimize a model with 662 rows, 646 columns and 1862 nonzeros
+Variable types: 0 continuous, 646 integer (646 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [7e+04, 3e+06]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 4.993149e+07
+Presolve removed 609 rows and 17 columns
+Presolve time: 0.01s
+Presolved: 53 rows, 629 columns, 1221 nonzeros
+Variable types: 0 continuous, 629 integer (629 binary)
+
+Root relaxation: objective 1.948843e+07, 278 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 1.9488e+07    0   11 4.9931e+07 1.9488e+07  61.0%     -    0s
+H    0     0                    2.285740e+07 1.9488e+07  14.7%     -    0s
+H    0     0                    2.285491e+07 1.9488e+07  14.7%     -    0s
+H    0     0                    2.285335e+07 1.9488e+07  14.7%     -    0s
+     0     0 1.9537e+07    0   18 2.2853e+07 1.9537e+07  14.5%     -    0s
+H    0     0                    2.285240e+07 1.9537e+07  14.5%     -    0s
+     0     0 1.9545e+07    0   18 2.2852e+07 1.9545e+07  14.5%     -    0s
+     0     0 1.9626e+07    0   27 2.2852e+07 1.9626e+07  14.1%     -    0s
+H    0     0                    2.285231e+07 1.9626e+07  14.1%     -    0s
+H    0     0                    2.284581e+07 1.9626e+07  14.1%     -    0s
+     0     0 1.9677e+07    0   26 2.2846e+07 1.9677e+07  13.9%     -    0s
+     0     0 1.9683e+07    0   30 2.2846e+07 1.9683e+07  13.8%     -    0s
+     0     0 1.9683e+07    0   30 2.2846e+07 1.9683e+07  13.8%     -    0s
+     0     0 1.9694e+07    0   21 2.2846e+07 1.9694e+07  13.8%     -    0s
+     0     0 1.9694e+07    0   25 2.2846e+07 1.9694e+07  13.8%     -    0s
+     0     0 1.9706e+07    0   30 2.2846e+07 1.9706e+07  13.7%     -    0s
+H    0     0                    2.284420e+07 1.9706e+07  13.7%     -    0s
+     0     2 1.9706e+07    0   30 2.2844e+07 1.9706e+07  13.7%     -    0s
+H   29    31                    2.284307e+07 1.9716e+07  13.7%   7.1    0s
+H  153   112                    2.283875e+07 1.9716e+07  13.7%   5.2    0s
+H  243   173                    2.283695e+07 1.9717e+07  13.7%   4.1    0s
+H  298   212                    2.283624e+07 1.9717e+07  13.7%   4.7    0s
+H  355   218                    2.283471e+07 1.9717e+07  13.7%   4.5    0s
+H  382   240                    2.283232e+07 1.9717e+07  13.6%   4.3    0s
+H  538   313                    2.282775e+07 1.9727e+07  13.6%   4.6    0s
+H  592   365                    2.282564e+07 1.9727e+07  13.6%   4.4    0s
+ 30024 18921 2.0123e+07   51    9 2.2826e+07 2.0061e+07  12.1%   2.5    5s
+H40643 25631                    2.282349e+07 2.0065e+07  12.1%   2.5    6s
+ 81538 52233 2.2262e+07   39   10 2.2823e+07 2.0082e+07  12.0%   2.3   10s
+ 129487 80137 2.0380e+07  148    5 2.2823e+07 2.0142e+07  11.8%   2.3   15s
+ 200006 113323 2.0172e+07   68   15 2.2823e+07 2.0172e+07  11.6%   2.3   20s
+ 285343 155073     cutoff   81      2.2823e+07 2.0188e+07  11.5%   2.2   25s
+H334619 180120                    2.282009e+07 2.0195e+07  11.5%   2.2   28s
+ 369222 199934 2.1602e+07  129    9 2.2820e+07 2.0198e+07  11.5%   2.2   30s
+ 449071 245294 2.0300e+07   77    5 2.2820e+07 2.0203e+07  11.5%   2.2   35s
+
+Gurobi 7.5.2 (win64, Python) logging started 03/03/18 19:27:09
+
+Academic license - for non-commercial use only
+Changed value of parameter MIPFocus to 1
+   Prev: 0  Min: 0  Max: 3  Default: 0
+Changed value of parameter MIPGap to 1.0
+   Prev: 0.0001  Min: 0.0  Max: 1e+100  Default: 0.0001
+Warning: linear constraint 0 and linear constraint 1 have the same name "supply"
+Optimize a model with 662 rows, 646 columns and 1862 nonzeros
+Variable types: 0 continuous, 646 integer (646 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [7e+04, 3e+06]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 4.993149e+07
+Presolve removed 609 rows and 17 columns
+Presolve time: 0.01s
+Presolved: 53 rows, 629 columns, 1221 nonzeros
+Variable types: 0 continuous, 629 integer (629 binary)
+
+Root relaxation: objective 1.948843e+07, 278 iterations, 0.01 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 1.9488e+07    0   11 4.9931e+07 1.9488e+07  61.0%     -    0s
+
+Explored 1 nodes (278 simplex iterations) in 0.06 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 4.99315e+07 
+
+Optimal solution found (tolerance 1.00e+00)
+Best objective 4.993148687751e+07, best bound 1.948843168958e+07, gap 60.9697%
+Changed value of parameter MIPFocus to 1
+   Prev: 0  Min: 0  Max: 3  Default: 0
+Changed value of parameter MIPGap to 0.5
+   Prev: 0.0001  Min: 0.0  Max: 1e+100  Default: 0.0001
+Warning: linear constraint 0 and linear constraint 1 have the same name "supply"
+Optimize a model with 662 rows, 646 columns and 1862 nonzeros
+Variable types: 0 continuous, 646 integer (646 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [7e+04, 3e+06]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 4.993149e+07
+Presolve removed 609 rows and 17 columns
+Presolve time: 0.01s
+Presolved: 53 rows, 629 columns, 1221 nonzeros
+Variable types: 0 continuous, 629 integer (629 binary)
+
+Root relaxation: objective 1.948843e+07, 278 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 1.9488e+07    0   11 4.9931e+07 1.9488e+07  61.0%     -    0s
+H    0     0                    2.285740e+07 1.9488e+07  14.7%     -    0s
+
+Explored 1 nodes (278 simplex iterations) in 0.05 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 2.28574e+07 4.99315e+07 
+
+Optimal solution found (tolerance 5.00e-01)
+Best objective 2.285739668005e+07, best bound 1.948843168958e+07, gap 14.7391%
+Changed value of parameter MIPFocus to 1
+   Prev: 0  Min: 0  Max: 3  Default: 0
+Changed value of parameter MIPGap to 0.7
+   Prev: 0.0001  Min: 0.0  Max: 1e+100  Default: 0.0001
+Warning: linear constraint 0 and linear constraint 1 have the same name "supply"
+Optimize a model with 662 rows, 646 columns and 1862 nonzeros
+Variable types: 0 continuous, 646 integer (646 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [7e+04, 3e+06]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 4.993149e+07
+Presolve removed 609 rows and 17 columns
+Presolve time: 0.01s
+Presolved: 53 rows, 629 columns, 1221 nonzeros
+Variable types: 0 continuous, 629 integer (629 binary)
+
+Root relaxation: objective 1.948843e+07, 278 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 1.9488e+07    0   11 4.9931e+07 1.9488e+07  61.0%     -    0s
+
+Explored 1 nodes (278 simplex iterations) in 0.04 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 1: 4.99315e+07 
+
+Optimal solution found (tolerance 7.00e-01)
+Best objective 4.993148687751e+07, best bound 1.948843168958e+07, gap 60.9697%
+Changed value of parameter MIPFocus to 1
+   Prev: 0  Min: 0  Max: 3  Default: 0
+Changed value of parameter MIPGap to 0.3
+   Prev: 0.0001  Min: 0.0  Max: 1e+100  Default: 0.0001
+Warning: linear constraint 0 and linear constraint 1 have the same name "supply"
+Optimize a model with 662 rows, 646 columns and 1862 nonzeros
+Variable types: 0 continuous, 646 integer (646 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [7e+04, 3e+06]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 4.993149e+07
+Presolve removed 609 rows and 17 columns
+Presolve time: 0.01s
+Presolved: 53 rows, 629 columns, 1221 nonzeros
+Variable types: 0 continuous, 629 integer (629 binary)
+
+Root relaxation: objective 1.948843e+07, 278 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 1.9488e+07    0   11 4.9931e+07 1.9488e+07  61.0%     -    0s
+H    0     0                    2.285740e+07 1.9488e+07  14.7%     -    0s
+
+Explored 1 nodes (278 simplex iterations) in 0.04 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 2.28574e+07 4.99315e+07 
+
+Optimal solution found (tolerance 3.00e-01)
+Best objective 2.285739668005e+07, best bound 1.948843168958e+07, gap 14.7391%
+Changed value of parameter MIPFocus to 1
+   Prev: 0  Min: 0  Max: 3  Default: 0
+Changed value of parameter MIPGap to 0.2
+   Prev: 0.0001  Min: 0.0  Max: 1e+100  Default: 0.0001
+Warning: linear constraint 0 and linear constraint 1 have the same name "supply"
+Optimize a model with 662 rows, 646 columns and 1862 nonzeros
+Variable types: 0 continuous, 646 integer (646 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [7e+04, 3e+06]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 4.993149e+07
+Presolve removed 609 rows and 17 columns
+Presolve time: 0.01s
+Presolved: 53 rows, 629 columns, 1221 nonzeros
+Variable types: 0 continuous, 629 integer (629 binary)
+
+Root relaxation: objective 1.948843e+07, 278 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 1.9488e+07    0   11 4.9931e+07 1.9488e+07  61.0%     -    0s
+H    0     0                    2.285740e+07 1.9488e+07  14.7%     -    0s
+
+Explored 1 nodes (278 simplex iterations) in 0.06 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 2.28574e+07 4.99315e+07 
+
+Optimal solution found (tolerance 2.00e-01)
+Best objective 2.285739668005e+07, best bound 1.948843168958e+07, gap 14.7391%
+Changed value of parameter MIPFocus to 1
+   Prev: 0  Min: 0  Max: 3  Default: 0
+Changed value of parameter MIPGap to 0.1
+   Prev: 0.0001  Min: 0.0  Max: 1e+100  Default: 0.0001
+Warning: linear constraint 0 and linear constraint 1 have the same name "supply"
+Optimize a model with 662 rows, 646 columns and 1862 nonzeros
+Variable types: 0 continuous, 646 integer (646 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [7e+04, 3e+06]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 4.993149e+07
+Presolve removed 609 rows and 17 columns
+Presolve time: 0.00s
+Presolved: 53 rows, 629 columns, 1221 nonzeros
+Variable types: 0 continuous, 629 integer (629 binary)
+
+Root relaxation: objective 1.948843e+07, 278 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 1.9488e+07    0   11 4.9931e+07 1.9488e+07  61.0%     -    0s
+H    0     0                    2.285740e+07 1.9488e+07  14.7%     -    0s
+H    0     0                    2.285491e+07 1.9488e+07  14.7%     -    0s
+H    0     0                    2.285335e+07 1.9488e+07  14.7%     -    0s
+     0     0 1.9537e+07    0   18 2.2853e+07 1.9537e+07  14.5%     -    0s
+H    0     0                    2.285240e+07 1.9537e+07  14.5%     -    0s
+     0     0 1.9545e+07    0   18 2.2852e+07 1.9545e+07  14.5%     -    0s
+     0     0 1.9626e+07    0   27 2.2852e+07 1.9626e+07  14.1%     -    0s
+H    0     0                    2.285231e+07 1.9626e+07  14.1%     -    0s
+H    0     0                    2.284581e+07 1.9626e+07  14.1%     -    0s
+     0     0 1.9677e+07    0   26 2.2846e+07 1.9677e+07  13.9%     -    0s
+     0     0 1.9683e+07    0   30 2.2846e+07 1.9683e+07  13.8%     -    0s
+     0     0 1.9683e+07    0   30 2.2846e+07 1.9683e+07  13.8%     -    0s
+     0     0 1.9694e+07    0   21 2.2846e+07 1.9694e+07  13.8%     -    0s
+     0     0 1.9694e+07    0   25 2.2846e+07 1.9694e+07  13.8%     -    0s
+     0     0 1.9706e+07    0   30 2.2846e+07 1.9706e+07  13.7%     -    0s
+H    0     0                    2.284420e+07 1.9706e+07  13.7%     -    0s
+     0     2 1.9706e+07    0   30 2.2844e+07 1.9706e+07  13.7%     -    0s
+H   29    31                    2.284307e+07 1.9716e+07  13.7%   7.1    0s
+H  153   112                    2.283875e+07 1.9716e+07  13.7%   5.2    0s
+H  243   173                    2.283695e+07 1.9717e+07  13.7%   4.1    0s
+H  298   212                    2.283624e+07 1.9717e+07  13.7%   4.7    0s
+H  355   218                    2.283471e+07 1.9717e+07  13.7%   4.5    0s
+H  382   240                    2.283232e+07 1.9717e+07  13.6%   4.3    0s
+H  538   313                    2.282775e+07 1.9727e+07  13.6%   4.6    0s
+H  592   365                    2.282564e+07 1.9727e+07  13.6%   4.4    0s
+ 21317 13308 2.2478e+07   42    8 2.2826e+07 2.0057e+07  12.1%   2.7    5s
+H40643 25631                    2.282349e+07 2.0065e+07  12.1%   2.5    6s
+ 72527 46216 2.0332e+07   99    3 2.2823e+07 2.0078e+07  12.0%   2.3   10s
+ 118916 74828 2.2286e+07   53    5 2.2823e+07 2.0111e+07  11.9%   2.3   15s
+ 186406 106648 2.1609e+07  132    5 2.2823e+07 2.0169e+07  11.6%   2.3   20s
+ 268083 146604 2.0521e+07   62    7 2.2823e+07 2.0185e+07  11.6%   2.2   25s
+H334619 180120                    2.282009e+07 2.0195e+07  11.5%   2.2   28s
+ 358899 193820     cutoff   83      2.2820e+07 2.0197e+07  11.5%   2.2   30s
+ 448398 244967 2.0729e+07   79    3 2.2820e+07 2.0203e+07  11.5%   2.2   35s
+ 525316 288808 2.0730e+07   96    5 2.2820e+07 2.0208e+07  11.4%   2.1   40s
+ 611319 336051 2.0738e+07   78    9 2.2820e+07 2.0214e+07  11.4%   2.1   45s
+ 684458 375609 2.0911e+07  138    5 2.2820e+07 2.0219e+07  11.4%   2.2   50s
+ 746750 407695 2.1200e+07  126   11 2.2820e+07 2.0224e+07  11.4%   2.2   55s
+ 817902 445157 2.1430e+07  150   11 2.2820e+07 2.0232e+07  11.3%   2.2   60s
+ 892051 482865     cutoff   82      2.2820e+07 2.0239e+07  11.3%   2.2   65s
+
+Gurobi 7.5.2 (win64, Python) logging started 03/03/18 19:31:04
+
+Academic license - for non-commercial use only
+Changed value of parameter MIPFocus to 1
+   Prev: 0  Min: 0  Max: 3  Default: 0
+Changed value of parameter MIPGap to 0.09
+   Prev: 0.0001  Min: 0.0  Max: 1e+100  Default: 0.0001
+Warning: linear constraint 0 and linear constraint 1 have the same name "supply"
+Optimize a model with 662 rows, 646 columns and 1862 nonzeros
+Variable types: 0 continuous, 646 integer (646 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [7e+04, 3e+06]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 4.993149e+07
+Presolve removed 609 rows and 17 columns
+Presolve time: 0.01s
+Presolved: 53 rows, 629 columns, 1221 nonzeros
+Variable types: 0 continuous, 629 integer (629 binary)
+
+Root relaxation: objective 1.948843e+07, 278 iterations, 0.00 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 1.9488e+07    0   11 4.9931e+07 1.9488e+07  61.0%     -    0s
+H    0     0                    2.285740e+07 1.9488e+07  14.7%     -    0s
+H    0     0                    2.285491e+07 1.9488e+07  14.7%     -    0s
+H    0     0                    2.285335e+07 1.9488e+07  14.7%     -    0s
+     0     0 1.9537e+07    0   18 2.2853e+07 1.9537e+07  14.5%     -    0s
+H    0     0                    2.285240e+07 1.9537e+07  14.5%     -    0s
+     0     0 1.9545e+07    0   18 2.2852e+07 1.9545e+07  14.5%     -    0s
+     0     0 1.9626e+07    0   27 2.2852e+07 1.9626e+07  14.1%     -    0s
+H    0     0                    2.285231e+07 1.9626e+07  14.1%     -    0s
+H    0     0                    2.284581e+07 1.9626e+07  14.1%     -    0s
+     0     0 1.9677e+07    0   26 2.2846e+07 1.9677e+07  13.9%     -    0s
+     0     0 1.9683e+07    0   30 2.2846e+07 1.9683e+07  13.8%     -    0s
+     0     0 1.9683e+07    0   30 2.2846e+07 1.9683e+07  13.8%     -    0s
+     0     0 1.9694e+07    0   21 2.2846e+07 1.9694e+07  13.8%     -    0s
+     0     0 1.9694e+07    0   25 2.2846e+07 1.9694e+07  13.8%     -    0s
+     0     0 1.9706e+07    0   30 2.2846e+07 1.9706e+07  13.7%     -    0s
+H    0     0                    2.284420e+07 1.9706e+07  13.7%     -    0s
+     0     2 1.9706e+07    0   30 2.2844e+07 1.9706e+07  13.7%     -    0s
+H   29    31                    2.284307e+07 1.9716e+07  13.7%   7.1    0s
+H  153   112                    2.283875e+07 1.9716e+07  13.7%   5.2    0s
+H  243   173                    2.283695e+07 1.9717e+07  13.7%   4.1    0s
+H  298   212                    2.283624e+07 1.9717e+07  13.7%   4.7    0s
+H  355   218                    2.283471e+07 1.9717e+07  13.7%   4.5    0s
+H  382   240                    2.283232e+07 1.9717e+07  13.6%   4.3    0s
+H  538   313                    2.282775e+07 1.9727e+07  13.6%   4.6    0s
+H  592   365                    2.282564e+07 1.9727e+07  13.6%   4.4    1s
+ 28064 17715     cutoff  102      2.2826e+07 2.0060e+07  12.1%   2.6    5s
+H40643 25631                    2.282349e+07 2.0065e+07  12.1%   2.5    6s
+ 74264 47068 2.0324e+07   86    5 2.2823e+07 2.0079e+07  12.0%   2.4   10s
+ 119981 75319 2.2264e+07   38    2 2.2823e+07 2.0116e+07  11.9%   2.3   15s
+ 200006 113323 2.0172e+07   68   15 2.2823e+07 2.0172e+07  11.6%   2.3   20s
+ 288036 156169 2.0349e+07  105    5 2.2823e+07 2.0189e+07  11.5%   2.2   25s
+H334619 180120                    2.282009e+07 2.0195e+07  11.5%   2.2   28s
+ 365508 197701 2.0294e+07   97    9 2.2820e+07 2.0198e+07  11.5%   2.2   30s
+ 455429 249046     cutoff   92      2.2820e+07 2.0204e+07  11.5%   2.1   35s
+ 543734 299278 2.0267e+07   62    3 2.2820e+07 2.0210e+07  11.4%   2.1   40s
+ 612177 336457     cutoff   71      2.2820e+07 2.0214e+07  11.4%   2.1   45s
+ 690898 378734 2.0550e+07   60   14 2.2820e+07 2.0220e+07  11.4%   2.2   50s
+ 768040 418794 2.0628e+07   79    5 2.2820e+07 2.0226e+07  11.4%   2.2   55s
+ 826764 449322 2.0638e+07   71    7 2.2820e+07 2.0232e+07  11.3%   2.2   60s
+ 894945 484439 2.1179e+07   88    8 2.2820e+07 2.0239e+07  11.3%   2.2   65s
+ 973694 528678 2.0246e+07   45    7 2.2820e+07 2.0245e+07  11.3%   2.2   70s
+ 1043891 567186 2.0262e+07   74   12 2.2820e+07 2.0249e+07  11.3%   2.2   75s
+ 1111278 606040 2.2380e+07  119    3 2.2820e+07 2.0252e+07  11.3%   2.2   80s
+H1131516 615229                    2.281806e+07 2.0253e+07  11.2%   2.2   81s
+ 1179214 641435 2.1413e+07  137    5 2.2818e+07 2.0254e+07  11.2%   2.2   85s
+ 1251194 679706     cutoff   94      2.2818e+07 2.0257e+07  11.2%   2.2   90s
+ 1310517 710737 2.2418e+07  126    3 2.2818e+07 2.0260e+07  11.2%   2.2   95s
+ 1383256 749500 2.0318e+07  116    5 2.2818e+07 2.0262e+07  11.2%   2.2  100s
+ 1456980 788431 2.1712e+07  125    3 2.2818e+07 2.0264e+07  11.2%   2.2  105s
+ 1514262 818100 2.2440e+07  170   11 2.2818e+07 2.0266e+07  11.2%   2.2  110s
+ 1584857 855062 2.0329e+07  103    5 2.2818e+07 2.0268e+07  11.2%   2.2  115s
+ 1660051 894075 2.0676e+07   78    9 2.2818e+07 2.0271e+07  11.2%   2.2  120s
+ 1720329 925461 2.0274e+07   65    7 2.2818e+07 2.0273e+07  11.2%   2.2  125s
+ 1795110 964523 2.1410e+07   81    9 2.2818e+07 2.0275e+07  11.1%   2.2  130s
+ 1870900 1003072 2.0374e+07   53   18 2.2818e+07 2.0278e+07  11.1%   2.2  135s
+ 1930900 1033332     cutoff  139      2.2818e+07 2.0280e+07  11.1%   2.2  140s
+ 2008439 1072159     cutoff   47      2.2818e+07 2.0282e+07  11.1%   2.2  145s
+ 2091844 1112617 2.1416e+07   91   12 2.2818e+07 2.0284e+07  11.1%   2.2  150s
+ 2163909 1146944 2.0891e+07  110    5 2.2818e+07 2.0286e+07  11.1%   2.2  155s
+ 2258363 1191989 2.0743e+07  101    7 2.2818e+07 2.0287e+07  11.1%   2.2  160s
+ 2361194 1240665     cutoff  101      2.2818e+07 2.0289e+07  11.1%   2.1  165s
+ 2455107 1285072 2.2024e+07  114    5 2.2818e+07 2.0290e+07  11.1%   2.1  170s
+ 2549299 1328913 2.0296e+07  125    9 2.2818e+07 2.0290e+07  11.1%   2.1  175s
+ 2632800 1366745 2.1069e+07  126    5 2.2818e+07 2.0291e+07  11.1%   2.1  180s
+ 2706960 1387863     cutoff  127      2.2818e+07 2.0293e+07  11.1%   2.1  185s
+ 2780682 1407692 2.0664e+07   69    8 2.2818e+07 2.0294e+07  11.1%   2.1  190s
+ 2863912 1431735 2.0657e+07   80   13 2.2818e+07 2.0295e+07  11.1%   2.2  195s
+ 2947783 1455764 2.2029e+07   85    3 2.2818e+07 2.0297e+07  11.0%   2.2  200s
+ 3015683 1476013 2.0432e+07  101   11 2.2818e+07 2.0298e+07  11.0%   2.2  205s
+ 3102284 1503584 2.0438e+07   70   13 2.2818e+07 2.0300e+07  11.0%   2.2  210s
+ 3190691 1531998 2.0747e+07   96    9 2.2818e+07 2.0301e+07  11.0%   2.2  215s
+ 3264233 1556161     cutoff   96      2.2818e+07 2.0302e+07  11.0%   2.2  220s
+ 3349503 1583928 2.2398e+07  115    7 2.2818e+07 2.0303e+07  11.0%   2.2  225s
+ 3439004 1614529 2.0304e+07   98    3 2.2818e+07 2.0304e+07  11.0%   2.2  230s
+ 3516910 1641131 2.0305e+07   82   14 2.2818e+07 2.0304e+07  11.0%   2.2  235s
+ 3598515 1668985 2.0443e+07   87    8 2.2818e+07 2.0305e+07  11.0%   2.2  240s
+ 3683503 1699309 2.0362e+07   95    9 2.2818e+07 2.0306e+07  11.0%   2.2  245s
+ 3766162 1727617 2.0436e+07   69   12 2.2818e+07 2.0306e+07  11.0%   2.2  250s
+ 3845725 1755393 2.0875e+07  153    5 2.2818e+07 2.0307e+07  11.0%   2.2  255s
+ 3926769 1783539 2.0499e+07  139    5 2.2818e+07 2.0308e+07  11.0%   2.2  260s
+ 4011085 1813126     cutoff  124      2.2818e+07 2.0308e+07  11.0%   2.2  265s
+ 4082147 1838256 2.0437e+07   99    8 2.2818e+07 2.0308e+07  11.0%   2.2  270s
+ 4167127 1868622 2.0391e+07  115    3 2.2818e+07 2.0309e+07  11.0%   2.2  275s
+ 4247193 1896324 2.0325e+07  103    7 2.2818e+07 2.0309e+07  11.0%   2.2  280s
+ 4316443 1920497     cutoff  127      2.2818e+07 2.0310e+07  11.0%   2.2  285s
+ 4400185 1950156 2.0316e+07   98    3 2.2818e+07 2.0310e+07  11.0%   2.2  290s
+ 4484088 1978899 2.0311e+07   74   13 2.2818e+07 2.0311e+07  11.0%   2.2  295s
+ 4554597 2003762 2.0385e+07  129    3 2.2818e+07 2.0311e+07  11.0%   2.2  300s
+ 4637845 2032461     cutoff  123      2.2818e+07 2.0311e+07  11.0%   2.2  305s
+
+Gurobi 7.5.2 (win64, Python) logging started 03/06/18 15:50:17
+
+Academic license - for non-commercial use only
+Changed value of parameter MIPFocus to 1
+   Prev: 0  Min: 0  Max: 3  Default: 0
+Changed value of parameter MIPGap to 0.2
+   Prev: 0.0001  Min: 0.0  Max: 1e+100  Default: 0.0001
+Warning: linear constraint 0 and linear constraint 1 have the same name "supply"
+Optimize a model with 662 rows, 646 columns and 1862 nonzeros
+Variable types: 0 continuous, 646 integer (646 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 1e+04]
+  Objective range  [7e+04, 3e+06]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+00]
+Found heuristic solution: objective 4.993149e+07
+Presolve removed 609 rows and 17 columns
+Presolve time: 0.06s
+Presolved: 53 rows, 629 columns, 1221 nonzeros
+Variable types: 0 continuous, 629 integer (629 binary)
+
+Root relaxation: objective 1.948843e+07, 278 iterations, 0.02 seconds
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 1.9488e+07    0   11 4.9931e+07 1.9488e+07  61.0%     -    0s
+H    0     0                    2.285740e+07 1.9488e+07  14.7%     -    0s
+
+Explored 1 nodes (278 simplex iterations) in 0.19 seconds
+Thread count was 4 (of 4 available processors)
+
+Solution count 2: 2.28574e+07 4.99315e+07 
+
+Optimal solution found (tolerance 2.00e-01)
+Best objective 2.285739668005e+07, best bound 1.948843168958e+07, gap 14.7391%
